@@ -58,8 +58,7 @@ Este projeto é um sistema de gerenciamento de estoque desenvolvido como parte d
 
 
 ### Documentação da API
-A documentação da API pode ser acessada através do Swagger na URL `[/swagger-ui.html](https://app.swaggerhub.com/apis/ENZOPAA_1/ProjetoNexus/1.0.0#/)`.
-
+A documentação da API pode ser acessada através do Swagger na URL [Swagger UI](https://app.swaggerhub.com/apis/ENZOPAA_1/ProjetoNexus/1.0.0#/)
 ---
 
 **Enzo Ausier Perales Ávila**
