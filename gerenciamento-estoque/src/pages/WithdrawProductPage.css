@@ -1,0 +1,47 @@
+.withdraw-product-container {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.withdraw-product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-quantity {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.withdraw-input-container {
+  margin: 10px 0;
+}
+
+.withdraw-input {
+  width: 80px;
+  padding: 5px;
+}
+
+.withdraw-product-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
