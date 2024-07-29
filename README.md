@@ -12,7 +12,7 @@ Este projeto é um sistema de gerenciamento de estoque desenvolvido como parte d
 - **Banco de Dados:** PostgreSQL
 - **Autenticação:** JWT (JSON Web Token)
 - **Gráficos:** Chart.js
-- **Geração de PDFs**
+- **Geração de PDFs:** itextPDF
 - **Documentação da API:** Swagger
 - **Criptografia:** Para senhas
 - **API:** RESTful
@@ -33,39 +33,32 @@ Este projeto é um sistema de gerenciamento de estoque desenvolvido como parte d
     ```bash
     git clone https://github.com/seu-usuario/seu-repositorio.git
     ```
-2. **Navegue até a pasta do frontend e instale as dependências:**
-    ```bash
-    cd gerenciamento-estoque
-    npm install
-    ```
-3. **Inicie o servidor do frontend:**
-    ```bash
-    npm start
-    ```
-4. **Navegue até a pasta do backend e configure as dependências:**
+2. **Navegue até a pasta do backend e configure as dependências:**
     ```bash
     cd ../estoque
     mvn install
     ```
-5. **Inicie o servidor do backend:**
+3. **Inicie o servidor do backend:**
+
+4. **Navegue até a pasta do frontend e instale as dependências:**
     ```bash
-    mvn spring-boot:run
+    cd gerenciamento-estoque
+    npm install
     ```
+5. **Inicie o servidor do frontend:**
+    ```bash
+    npm run dev
+    ```
+
 
 ### Configuração do Banco de Dados
 - Certifique-se de ter o PostgreSQL instalado e em execução.
 - Crie um banco de dados para o projeto.
 - Configure as credenciais do banco de dados no arquivo `application.properties` no backend.
 
-### Endpoints Principais
-- **Login:** `/api/login`
-- **Listagem de Produtos:** `/api/produtos`
-- **Retirada de Produtos:** `/api/produtos/retirada`
-- **Geração de Gráficos:** `/api/graficos`
-- **Geração de PDFs:** `/api/pdfs`
 
 ### Documentação da API
-A documentação da API pode ser acessada através do Swagger na URL `/swagger-ui.html`.
+A documentação da API pode ser acessada através do Swagger na URL `[/swagger-ui.html](https://app.swaggerhub.com/apis/ENZOPAA_1/ProjetoNexus/1.0.0#/)`.
 
 ---
 
