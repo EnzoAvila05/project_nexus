@@ -1,7 +1,7 @@
 # Projeto de Gerenciamento de Estoque
 
 ### Autor
-Enzo Ausier Perales Ávila
+Enzo Perales Ausier Ávila
 
 ### Sobre
 Este projeto é um sistema de gerenciamento de estoque desenvolvido como parte da seletiva para o Projeto Nexus. Ele permite que os usuários façam login, acessem uma lista de produtos, realizem retiradas alterando o estoque e gerem gráficos e PDFs sobre o estoque.
