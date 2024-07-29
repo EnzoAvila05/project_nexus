@@ -62,6 +62,18 @@ public class ProdutoController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    @PutMapping("/edit/{id}")
+    public ResponseEntity updateProdutoEdit(@PathVariable String id, @RequestBody @Valid ProdutoRequestDTO body) {
+        return repository.findById(id)
+                .map(produto -> {
+                    produto.setQuantity(body.quantity());
+                    produto.setPrice(body.price());
+                    repository.save(produto);
+                    return ResponseEntity.ok(new ProdutoResponseDTO(produto));
+                })
+                .orElse(ResponseEntity.notFound().build());
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity deleteProduto(@PathVariable String id) {
         if (!repository.existsById(id)) {

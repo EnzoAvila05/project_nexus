@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(springfox.documentation.spi.DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.estoque.produto.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("com.estoque.produto"))
                 .paths(PathSelectors.any())
                 .build();
     }

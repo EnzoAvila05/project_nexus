@@ -14,7 +14,7 @@ const EditProductPage = () => {
   const handleUpdateProduct = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:8080/produto/${id}`, { name, price, quantity }, {
+      await axios.put(`http://localhost:8080/produto/edit/${id}`, { name, price, quantity }, {
         headers: { Authorization: localStorage.getItem('token') }
       });
       alert('Produto atualizado com sucesso!');
